@@ -3,17 +3,21 @@
    ============================================ */
 
 :root {
-    --lc-bg: #0a0e1a;
-    --lc-surface: #111827;
-    --lc-surface2: #1a2235;
-    --lc-border: #1f2937;
-    --lc-accent: #3b82f6;
-    --lc-accent-hover: #2563eb;
-    --lc-teal: #14b8a6;
-    --lc-text: #f1f5f9;
-    --lc-text-secondary: #94a3b8;
-    --lc-text-muted: #64748b;
+    --lc-bg: #000000;
+    --lc-surface: #111111;
+    --lc-surface2: #222222;
+    --lc-border: #333333;
+    --lc-accent: #ffffff;
+    --lc-accent-hover: #cccccc;
+    --lc-teal: #999999;
+    --lc-text: #ffffff;
+    --lc-text-secondary: #cccccc;
+    --lc-text-muted: #888888;
     --lc-sidebar-width: 240px;
+}
+
+html {
+    filter: grayscale(100%);
 }
 
 * { font-family: 'Inter', sans-serif; }
